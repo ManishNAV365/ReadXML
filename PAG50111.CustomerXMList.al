@@ -4,7 +4,7 @@ page 50111 CustomerXMLList
     ApplicationArea = All;
     UsageCategory = Administration;
     SourceTable = CustomerXML;
-    caption = 'CustomerXMLList';
+    caption = 'Customer XML List';
 
     layout
     {
