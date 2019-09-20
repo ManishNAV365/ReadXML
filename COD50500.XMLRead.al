@@ -28,13 +28,14 @@ codeunit 50500 "XML Read Demo"
         NodeCount: Integer;
         i: Integer;
     begin
-        
+
         if UploadIntoStream('Select XML file', '', 'XML files (*.XML)|*.XML|All files (*.*)|*.*', RespnseTxt, XMLInstream) then begin
             CustomerXML.DeleteAll();
             CustomerXML.Reset();
 
             CLEAR(RespnseTxt);
             XMLDomMgt.LoadXMLDocumentFromInStream(XMLInstream, lXMLResponse);
+
             lXMLResponse.WriteTo(RespnseTxt);
             XMLResponseContent := XMLDomMgt.RemoveNamespaces(RespnseTxt);
             XMLDomMgt.LoadXMLDocumentFromText(XMLResponseContent, XMLDocResponse);
@@ -125,10 +126,10 @@ codeunit 50500 "XML Read Demo"
 
     var
         CustomerXML: Record CustomerXML;
-        XMLDomMgt: Codeunit "XML DOM Mgt.";
+        XMLDomMgt: Codeunit "XML DOM Mgt";
         CustNo: Code[20];
         CustSP: Code[10];
-        Color : Option "Red","Green";
+        Color: Option "Red","Green";
         CustName: Text[100];
         CustCont: Text[100];
         CustBalance: Decimal;

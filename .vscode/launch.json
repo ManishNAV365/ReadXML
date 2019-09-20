@@ -6,11 +6,13 @@
             "request": "launch",
             "name": "Your own server",
             "server": "http://localhost",
-            "serverInstance": "dynamicsnav130",
+            "serverInstance": "BC140",
             "authentication": "Windows",
-            "startupObjectId": 50110,
-            "port": 13049,
-            "schemaUpdateMode": "Synchronize"
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "port": 7449,
+            "breakOnError": true,
+            "launchBrowser": true
         }
     ]
 }

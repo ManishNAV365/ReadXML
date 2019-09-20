@@ -19,7 +19,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table CustomerXML - Field Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1899157183 - Field 25700210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Balance</source>
+          <source>Balance ($)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table CustomerXML - Field Balance - Property Caption</note>
         </trans-unit>
@@ -42,6 +42,36 @@
           <source>Read XML File</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page XML Test Page - Action Create Soap Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 26589033 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CustomerXMLList</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CustomerXMLList - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 26589033 - Control 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CustomerXMLList - Control No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 26589033 - Control 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CustomerXMLList - Control Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 26589033 - Control 25700210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CustomerXMLList - Control Balance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 26589033 - Control 2695906988 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SalespersonCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CustomerXMLList - Control SalespersonCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 26589033 - Control 4144518489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CustomerXMLList - Control ContactName - Property Caption</note>
         </trans-unit>
       </group>
     </body>

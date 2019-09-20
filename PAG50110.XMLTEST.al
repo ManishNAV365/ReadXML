@@ -2,6 +2,7 @@ page 50110 "XML Test Page"
 {
     PageType = Card;
     Caption = 'XML Test Page';
+    UsageCategory = Administration;
     actions
     {
         area(processing)

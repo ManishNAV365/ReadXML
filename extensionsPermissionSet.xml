@@ -3,6 +3,16 @@
   <PermissionSet RoleID="XMLREADDEMO" RoleName="XMLReadDemo">
     <Permission>
       <ObjectType>5</ObjectType>
+      <ObjectID>50501</ObjectID>
+      <ReadPermission>0</ReadPermission>
+      <InsertPermission>0</InsertPermission>
+      <ModifyPermission>0</ModifyPermission>
+      <DeletePermission>0</DeletePermission>
+      <ExecutePermission>1</ExecutePermission>
+      <SecurityFilter />
+    </Permission>
+    <Permission>
+      <ObjectType>5</ObjectType>
       <ObjectID>50500</ObjectID>
       <ReadPermission>0</ReadPermission>
       <InsertPermission>0</InsertPermission>
