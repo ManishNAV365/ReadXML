@@ -12,8 +12,6 @@
   "logo": "",
   "showMyCode": true,
   "capabilities": [],
-  "dependencies": [{"appId": "818bbc0e-8296-45f7-bdae-6798210a9e2c","name": "WebSrvIntegration",
-    "publisher": "Default publisher","version": "1.0.0.0"}],
   "screenshots": [],
   "platform": "13.0.0.0",
   "application": "13.0.0.0",
